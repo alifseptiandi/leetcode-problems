@@ -10,7 +10,7 @@
  * }
  */
 
-function addTwoNumbers (l1: ListNode | null, l2: ListNode | null): ListNode | null {
+function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
     const dummyHead: ListNode = new ListNode(0);
     let curr: ListNode = dummyHead;
     let carry: number = 0;
@@ -23,7 +23,7 @@ function addTwoNumbers (l1: ListNode | null, l2: ListNode | null): ListNode | nu
         curr.next = new ListNode(sum % 10);
         curr = curr.next;
         
-        if (l1) l1 = l1.next;   
+        if (l1) l1 = l1.next;
         if (l2) l2 = l2.next;
     }
     
