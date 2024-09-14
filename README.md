@@ -22,7 +22,7 @@ Here's why each language made our star-studded lineup:
 
 ## 🚀 Getting Started
 
-1. Clone this repo: `git clone https://github.com/yourusername/leetcode-polyglot.git`
+1. Clone this repo: `git clone https://github.com/septiandyy/leetcode-problems.git`
 2. Navigate to any problem directory
 3. Choose your language of choice and dive in!
 
